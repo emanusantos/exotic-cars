@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render heading 1`] = `
+<header
+  class="sc-bdfBQB eXRFvu"
+>
+  <div
+    class="sc-gsTEea bLZMfK"
+  >
+    <h2
+      class="sc-dlfnuX gldEDn"
+    >
+      EXOTIC
+    </h2>
+    <h4
+      class="sc-hKgJUU CRIFQ"
+    >
+      CARS
+    </h4>
+  </div>
+  <div
+    class="sc-gsTEea hlSGxa"
+  >
+    <div
+      class="sc-gsTEea ehHOvI"
+    >
+      <div />
+      <p
+        class="sc-jSgvzq hqPMxm"
+      >
+        North Carolina, NC 90025
+      </p>
+    </div>
+    <div
+      class="sc-gsTEea ehIYQB"
+    >
+      <div />
+      <p
+        class="sc-jSgvzq hqPMxm"
+      >
+        11/03/2021
+      </p>
+    </div>
+    <div
+      class="sc-gsTEea ehIYQB"
+    >
+      <div />
+      <p
+        class="sc-jSgvzq hqPMxm"
+      >
+        12/12/2021
+      </p>
+    </div>
+    <div
+      style="background-color: rgb(255, 255, 255); padding: .2rem .5rem; border-radius: 5rem;"
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    class="sc-gsTEea bLZMfK"
+  >
+    <button
+      class="sc-eCstlR frUVS"
+    >
+      Sign up
+    </button>
+    <button
+      class="sc-eCstlR RqSUo"
+    >
+      Sign in
+    </button>
+  </div>
+</header>
+`;
