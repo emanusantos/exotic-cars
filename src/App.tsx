@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from 'components/Header';
+import Cars from 'components/Cars';
 
 function App() {
     return (
         <>
             <Header />
-            <h1>Exotic Cars</h1>
+            <Cars />
         </>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './styles';
+import * as S from 'styles/header';
 import { ReactComponent as Calendar } from 'assets/calendar.svg';
 import { ReactComponent as Location } from 'assets/location.svg';
 import { ReactComponent as Search } from 'assets/search.svg';
