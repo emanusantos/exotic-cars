@@ -3,8 +3,12 @@ import * as S from 'styles/details';
 import ArrowRight from 'assets/arrow1.svg';
 import ArrowLeft from 'assets/arrow2.svg';
 import ArrowLeft2 from 'assets/arrow3.svg';
+import { useHistory } from 'react-router';
+import { useCarContext } from 'CarContext';
 
 const Details = () => {
+    const { car } = useCarContext();
+    const history = useHistory();
     return (
         <S.Container>
             <div style={{ display: 'flex', gap: '2rem' }}>
@@ -14,8 +18,10 @@ const Details = () => {
                     alt="logo"
                 />
                 <div style={{ width: '100%', cursor: 'default' }}>
-                    <S.Title>Ferrari California</S.Title>
-                    <p style={{ fontSize: '2rem' }}>$725/day</p>
+                    <S.Title>
+                        {car.brand} {car.model}
+                    </S.Title>
+                    <p style={{ fontSize: '2rem' }}>${car.price}/day</p>
                 </div>
             </div>
             <div
@@ -25,7 +31,11 @@ const Details = () => {
                     justifyContent: 'space-between'
                 }}
             >
-                <S.CatalogButton>
+                <S.CatalogButton
+                    onClick={() => {
+                        history.push('/');
+                    }}
+                >
                     <img style={{ marginRight: '.1rem' }} src={ArrowLeft} />
                     Back to catalog
                 </S.CatalogButton>

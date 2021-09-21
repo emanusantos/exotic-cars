@@ -7,11 +7,12 @@ type CarProps = {
     model: string;
     img: string;
     price: number;
+    onClick: () => void;
 };
 
-const Car = ({ brand, model, img, price }: CarProps) => {
+const Car = ({ brand, model, img, price, onClick }: CarProps) => {
     return (
-        <S.Card>
+        <S.Card onClick={onClick}>
             <S.Wrapper primary>
                 <S.Title>{brand}</S.Title>
                 <Dots />
