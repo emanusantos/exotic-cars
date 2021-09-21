@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from 'styles/header';
 import { ReactComponent as Calendar } from 'assets/calendar.svg';
 import { ReactComponent as Location } from 'assets/location.svg';
-import { ReactComponent as Search } from 'assets/search.svg';
+import Search from 'assets/search.svg';
 
 const Header = () => {
     return (
@@ -31,7 +31,7 @@ const Header = () => {
                         borderRadius: '5rem'
                     }}
                 >
-                    <Search />
+                    <img src={Search} />
                 </div>
             </S.Wrapper>
             <S.Wrapper>
