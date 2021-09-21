@@ -26,6 +26,7 @@ export const Title = styled.h2`
     color: #313136;
     font-weight: 600;
     letter-spacing: 0.07rem;
+    cursor: default;
 `;
 
 export const Subtitle = styled.h4`
@@ -34,6 +35,7 @@ export const Subtitle = styled.h4`
     font-weight: normal;
     align-self: flex-end;
     letter-spacing: 0.05rem;
+    cursor: default;
 `;
 
 type ButtonProps = {
@@ -56,4 +58,5 @@ export const Text = styled.p`
     font-size: 0.75rem;
     color: #656469;
     font-weight: 600;
+    cursor: default;
 `;

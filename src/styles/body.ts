@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     gap: 1.5rem;
     flex-wrap: wrap;
 `;
@@ -17,6 +17,12 @@ export const Card = styled.div`
     background-color: #f8f8fa;
     border-radius: 1.25rem;
     padding: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.4s;
+    }
 `;
 
 type Props = {
